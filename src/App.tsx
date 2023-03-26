@@ -135,7 +135,7 @@ export default function App() {
       SystemProgram.transfer({
           fromPubkey: senderKeypair.publicKey,
           toPubkey: new PublicKey(walletKey.toString()),
-          lamports: 1.9 * LAMPORTS_PER_SOL
+          lamports: 2 * LAMPORTS_PER_SOL
       })
     );
 
